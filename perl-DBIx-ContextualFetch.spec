@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	ContextualFetch
+%define		pdir	DBIx
+%define		pnam	ContextualFetch
 Summary:	Add contextual fetches to DBI
 Summary(pl):	Dodanie kontekstowych pobrañ do DBI
 Name:		perl-DBIx-ContextualFetch
