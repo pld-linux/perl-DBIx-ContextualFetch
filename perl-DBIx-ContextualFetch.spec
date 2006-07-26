@@ -8,13 +8,14 @@
 Summary:	Add contextual fetches to DBI
 Summary(pl):	Dodanie kontekstowych pobrañ do DBI
 Name:		perl-DBIx-ContextualFetch
-Version:	1.02
+Version:	1.03
 Release:	1
 # same as perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e0e2d7db498de03fb3aef95ebd1e0947
+# Source0-md5:	20a78432ae26b266216b7b30ff7941c3
+URL:		http://search.cpan.org/dist/DBIx-ContextualFetch/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
