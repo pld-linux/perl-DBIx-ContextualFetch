@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	ContextualFetch
 Summary:	Add contextual fetches to DBI
-Summary(pl):	Dodanie kontekstowych pobrañ do DBI
+Summary(pl.UTF-8):   Dodanie kontekstowych pobraÅ„ do DBI
 Name:		perl-DBIx-ContextualFetch
 Version:	1.03
 Release:	1
@@ -31,12 +31,12 @@ DBIx::ContextualFetch redefines some of the various fetch methods to
 fix this oversight. It also adds a few new methods for convenience
 (though not necessarily efficiency).
 
-%description -l pl
-Modu³ DBIx::ContextualFetch dodaje kontekstowe pobrania do DBI. Samo
-DBI nie robi wiêkszego u¿ytku z perlowej kontekstowo¶ci.
-DBIx::ContextualFetch redefiniuje czê¶æ ró¿nych metod pobieraj±cych,
-aby poprawiæ to przeoczenie. Dodaje tak¿e kilka nowych metod dla
-wygody (ale niekoniecznie wydajno¶ci).
+%description -l pl.UTF-8
+ModuÅ‚ DBIx::ContextualFetch dodaje kontekstowe pobrania do DBI. Samo
+DBI nie robi wiÄ™kszego uÅ¼ytku z perlowej kontekstowoÅ›ci.
+DBIx::ContextualFetch redefiniuje czÄ™Å›Ä‡ rÃ³Å¼nych metod pobierajÄ…cych,
+aby poprawiÄ‡ to przeoczenie. Dodaje takÅ¼e kilka nowych metod dla
+wygody (ale niekoniecznie wydajnoÅ›ci).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
