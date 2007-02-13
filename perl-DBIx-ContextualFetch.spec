@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	ContextualFetch
 Summary:	Add contextual fetches to DBI
-Summary(pl.UTF-8):   Dodanie kontekstowych pobrań do DBI
+Summary(pl.UTF-8):	Dodanie kontekstowych pobrań do DBI
 Name:		perl-DBIx-ContextualFetch
 Version:	1.03
 Release:	1
