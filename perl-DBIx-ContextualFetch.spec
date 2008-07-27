@@ -9,7 +9,7 @@ Summary:	Add contextual fetches to DBI
 Summary(pl.UTF-8):	Dodanie kontekstowych pobrań do DBI
 Name:		perl-DBIx-ContextualFetch
 Version:	1.03
-Release:	1
+Release:	2
 # same as perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
